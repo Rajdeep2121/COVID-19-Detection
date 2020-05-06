@@ -20,9 +20,9 @@ X-Ray of an infected person exhibits some light patches in the lungs.
 
 # Conclusion
 
-The convolutional neural network produces 0.9750 accuracy. It is a big resource for the doctors working in such dangerous conditions to easily identify most of the cases by feeding these X-Rays into the neural network.
+The convolutional neural network produces <u>0.9750 accuracy</u>. It is a big resource for the doctors working in such dangerous conditions to easily identify most of the cases by feeding these X-Rays into the neural network.
 
 # Future Work 
 
-1)For this model to be more accurate, we will need more datasets.
+1)For this model to be more accurate, we will need more datasets.<br>
 2)A user interface can be made in future in order to make things easy.
