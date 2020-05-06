@@ -1,3 +1,6 @@
+# ------------------------------------------------------------------------
+# Convolutional Neural Network Creation 
+
 from keras.models import Sequential
 from keras.layers import Dense
 from keras.layers import Convolution2D
@@ -22,6 +25,7 @@ model.add(Dense(output_dim=1,activation="sigmoid"))
 model.compile(optimizer="adam",loss="binary_crossentropy",metrics=['accuracy'])
 
 # ------------------------------------------------------------------------
+# Image Preprocessing
 
 from keras.preprocessing.image import ImageDataGenerator
 
@@ -37,14 +41,18 @@ training_set = train_datagen.flow_from_directory('data/train',target_size=(32,32
 
 test_set = test_datagen.flow_from_directory('data/test',target_size=(32,32),batch_size=32,class_mode='binary')
 
+# ------------------------------------------------------------------------
+# Fitting Data
+
 model.fit_generator(
         training_set,
         steps_per_epoch=148,
         epochs=7,
         validation_data=test_set,
         validation_steps=40)
+# ------------------------------------------------------------------------
+# Predicting
 
-# Predicting 
 import numpy as np
 from keras.preprocessing import image
 
