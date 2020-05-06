@@ -35,7 +35,7 @@ X-Ray of an infected person exhibits some light patches in the lungs.
 
 # Conclusion
 
-The convolutional neural network produces <u>0.9750 accuracy</u>. It is a big resource for the doctors working in such dangerous conditions to easily identify most of the cases by feeding these X-Rays into the neural network.
+The convolutional neural network produces 0.9750 accuracy. It is a big resource for the doctors working in such dangerous conditions to easily identify this major symptom of COVID-19 by feeding these X-Rays into the neural network.
 
 # Future Work 
 

@@ -69,5 +69,5 @@ res = model.predict(check_image)
 if(res[0][0]==0):
     print("predicted person is normal person")
 else:
-    print("predicted person is COVID-19 affected person")
+    print("predicted person shows symptoms of COVID-19")
 
