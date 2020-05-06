@@ -64,11 +64,10 @@ check_image = np.expand_dims(check_image,axis=0)
 
 res = model.predict(check_image)
 
-training_set.class_indices
+# training_set.class_indices
 
 if(res[0][0]==0):
     print("predicted person is normal person")
 else:
     print("predicted person is COVID-19 affected person")
 
-print()
