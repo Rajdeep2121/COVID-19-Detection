@@ -6,9 +6,16 @@ The COVID-19 pandemic, also known as the coronavirus pandemic, is an ongoing pan
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/COVID-19_Outbreak_World_Map_per_Capita.svg/1200px-COVID-19_Outbreak_World_Map_per_Capita.svg.png" width="50%">
 </p>
 
+# Symptoms
+
 Common symptoms include fever, cough, fatigue, shortness of breath, and loss of smell. Complications may include pneumonia and acute respiratory distress syndrome. The time from exposure to onset of symptoms is typically around five days, but may range from two to fourteen days. There is no known vaccine or specific antiviral treatment.
 
 Symptoms of COVID-19 can be relatively non-specific and infected people may be asymptomatic. The two most common symptoms are fever (88 per cent) and dry cough (68 per cent). Less common symptoms include fatigue, respiratory sputum production (phlegm), loss of the sense of smell, loss of taste, shortness of breath, muscle and joint pain, sore throat, headache, chills, vomiting, hemoptysis, and diarrhea.
+
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Symptoms_of_coronavirus_disease_2019_4.0.svg/495px-Symptoms_of_coronavirus_disease_2019_4.0.svg.png" width="50%">
+</p>
+
 
 The WHO says approximately one person in five becomes seriously ill and has difficulty breathing. The U.S. Centers for Disease Control and Prevention (CDC) lists emergency symptoms as difficulty breathing, persistent chest pain or pressure, sudden confusion, difficulty waking, and bluish face or lips; immediate medical attention is advised if these symptoms are present.
 
