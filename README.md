@@ -27,6 +27,10 @@ The intent is to classify the X-Rays into normal lung and COVID-19.
 
 The opacities are vague and fuzzy clouds of white in the darkness of the lungs. As the differences between normal and COVID-19 X-Rays were extremely subtle, high contrast images were created to make it relatively easier to classify.
 
+
+<p align="center">
+  <img src="https://healthcare-in-europe.com/media/story_section_image/4670/image-01-marti-beide.jpg" width="50%">
+</p>
 X-Ray of an infected person exhibits some light patches in the lungs. 
 
 # Conclusion
