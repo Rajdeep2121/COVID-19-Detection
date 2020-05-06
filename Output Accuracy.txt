@@ -1,0 +1,3 @@
+Accuracy:
+Training Data - 0.9952 
+Testing Data - 0.9750
