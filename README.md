@@ -33,6 +33,11 @@ The opacities are vague and fuzzy clouds of white in the darkness of the lungs. 
 </p>
 X-Ray of an infected person exhibits some light patches in the lungs. 
 
+# Training and Testing 
+
+Training with 5216 images.
+Testing with 624 images.
+
 # Conclusion
 
 The convolutional neural network produces 0.8670 accuracy. It is a big resource for the doctors working in such dangerous conditions to easily identify this major symptom of COVID-19 by feeding these X-Rays into the neural network.
