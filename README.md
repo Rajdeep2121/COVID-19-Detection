@@ -35,7 +35,7 @@ X-Ray of an infected person exhibits some light patches in the lungs.
 
 # Training and Testing 
 
-Training with 5216 images.
+Training with 5216 images.<br>
 Testing with 624 images.
 
 # Conclusion
