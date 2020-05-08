@@ -37,9 +37,9 @@ train_datagen = ImageDataGenerator(
 
 test_datagen = ImageDataGenerator(rescale=1./255)
 
-training_set = train_datagen.flow_from_directory('data/train',target_size=(32,32),batch_size=32,class_mode='binary')
+training_set = train_datagen.flow_from_directory('data/train',target_size=(32,32),batch_size=64,class_mode='binary')
 
-test_set = test_datagen.flow_from_directory('data/test',target_size=(32,32),batch_size=32,class_mode='binary')
+test_set = test_datagen.flow_from_directory('data/test',target_size=(32,32),batch_size=64,class_mode='binary')
 
 # ------------------------------------------------------------------------
 # Fitting Data
@@ -47,7 +47,7 @@ test_set = test_datagen.flow_from_directory('data/test',target_size=(32,32),batc
 model.fit_generator(
         training_set,
         steps_per_epoch=5216,
-        epochs=7,
+        epochs=5,
         validation_data=test_set,
         validation_steps=624)
 
@@ -55,8 +55,6 @@ model.fit_generator(
 # Saving Model
 
 model.save("model.h5")
-
-# ------------------------------------------------------------------------
 
 # ------------------------------------------------------------------------
 # Predicting
