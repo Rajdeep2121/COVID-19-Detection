@@ -47,7 +47,7 @@ test_set = test_datagen.flow_from_directory('data/test',target_size=(32,32),batc
 model.fit_generator(
         training_set,
         steps_per_epoch=5216,
-        epochs=5,
+        epochs=5, verbose=1,
         validation_data=test_set,
         validation_steps=624)
 
@@ -55,25 +55,3 @@ model.fit_generator(
 # Saving Model
 
 model.save("model.h5")
-
-# ------------------------------------------------------------------------
-# Predicting
-
-import numpy as np
-from keras.preprocessing import image
-
-check_image = image.load_img("data/check/0.jpeg",target_size=(32,32))
-
-check_image = image.img_to_array(check_image)
-
-check_image = np.expand_dims(check_image,axis=0)
-
-res = model.predict(check_image)
-
-# training_set.class_indices
-
-if(res[0][0]==0):
-    print("predicted person is normal person")
-else:
-    print("predicted person shows symptoms of COVID-19")
-
